@@ -1,4 +1,4 @@
-import { PriceCardType } from "@/types";
+import { type PriceCardType } from "@/types";
 
 export const analVaricoseVeins: PriceCardType = {
   title: "Żylaki odbytu",

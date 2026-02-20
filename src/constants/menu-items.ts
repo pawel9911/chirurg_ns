@@ -1,4 +1,4 @@
-import { MenuItemType } from "../types/menu-item.types";
+import { type MenuItemType } from "../types/menu-item.types";
 import {
   aestheticSurgerySubItems,
   generalSurgerySubItems,

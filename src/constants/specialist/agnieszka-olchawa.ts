@@ -1,4 +1,4 @@
-import { SpecialistType } from "@/types";
+import { type SpecialistType } from "@/types";
 
 export const agaData: SpecialistType = {
   profile: {

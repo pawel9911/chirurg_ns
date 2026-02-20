@@ -1,4 +1,4 @@
-import { MenuSubItemType } from "@/types";
+import { type MenuSubItemType } from "@/types";
 
 export const generalSurgerySubItems: MenuSubItemType[] = [
   {
