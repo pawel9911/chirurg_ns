@@ -1,5 +1,6 @@
 export type ProfileType = {
   title: string;
+  degree: string;
   tags: string[];
   links?: {
     title: string;

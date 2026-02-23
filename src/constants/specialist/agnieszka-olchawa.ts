@@ -5,7 +5,8 @@ export const agaData: SpecialistType = {
     title: "Specjalista",
     tags: ["Medycyna estetyczna"],
     spec: ["medycyny estetycznej"],
-    name: "lek. med. Agnieszka Olchawa",
+    degree: "lek. med. ",
+    name: "Agnieszka Olchawa",
     description:
       "Zaufaj doświadczeniu, powierz swoje zdrowie i piękno prawdziwym specjalistom.",
     imageSrc: "/aga/agnieszka-olchawa.png",

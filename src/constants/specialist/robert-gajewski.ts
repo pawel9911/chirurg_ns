@@ -9,7 +9,8 @@ export const robertData: SpecialistType = {
       { title: "Zabiegi estetyczne", href: "/zabiegi/estetyczne" },
     ],
     spec: ["ogólnej", "onkologicznej"],
-    name: "lek. med. Robert Gajewski",
+    degree: "lek. med. ",
+    name: "Robert Gajewski",
     description:
       "Absolwent Śląskiego Uniwersytetu Medycznego. Doświadczenie, precyzja i troska o pacjenta w każdym przypadku.",
     imageSrc: "/robert/robert-gajewski.png",
