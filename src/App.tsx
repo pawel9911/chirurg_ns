@@ -7,6 +7,7 @@ import {
   PriceList,
   Specialist,
   Specialists,
+  Surgeries,
   Surgery,
 } from "./page";
 
@@ -17,7 +18,8 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/specjalista" element={<Specialists />} />
         <Route path="/specjalista/:id" element={<Specialist />} />
-        <Route path="/zabiegi/:id" element={<Surgery />} />
+        <Route path="/zabiegi/:id" element={<Surgeries />} />
+        <Route path="/zabiegi/:id/:subId" element={<Surgery />} />
         <Route path="/cennik" element={<PriceList />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="*" element={<NotFound />} />

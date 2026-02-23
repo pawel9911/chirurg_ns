@@ -9,7 +9,7 @@ import { aestheticSurgeryPage, generalSurgeryPage } from "@/constants";
 import { Banner, VerticalScroll } from "@/shared";
 import { Link, Navigate, useParams } from "react-router";
 
-export const Surgery = () => {
+export const Surgeries = () => {
   const { id } = useParams();
 
   const getStaticData = () => {
