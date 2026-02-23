@@ -9,7 +9,7 @@ export const agaData: SpecialistType = {
     name: "Agnieszka Olchawa",
     description:
       "Zaufaj doświadczeniu, powierz swoje zdrowie i piękno prawdziwym specjalistom.",
-    imageSrc: "/aga/agnieszka-olchawa.png",
+    imageSrc: `${import.meta.env.VITE_ASSET_PREFIX}/aga/agnieszka-olchawa.png`,
   },
   biography: {
     text: "Specjalista Radioterapii Onkologicznej. Akademię Medyczną ukończyłam w Lublinie w latach 1998-2004. Szkolenie specjalizacyjne odbyłam w Centrum Onkologii - Instytut Marii Skłodowskiej-Curie na ul. Garncarskiej w Krakowie. Tytuł specjalisty z Radioterapii Onkologicznej uzyskałam w 2019r. Aktualnie pracuję w Zakładzie/Oddziale Radioterapii Szpitala Specjalistycznego im. J.Śniadeckiego w Nowym Sączu, gdzie leczę pacjentów napromienianiem w Zakładzie Radioterapii oraz w ramach Oddziału Radioterapii, samodzielnym napromienianiem lub skojarzonym leczeniem radiochemioterapią. Zajmuję się leczeniem nowotworów głowy i szyi, piersi, płuc, układu pokarmowego, narządu rodnego u kobiet oraz gruczołu krokowego u mężczyzn, a także leczeniem zmian nienowotworowych (ostrogi piętowe, łokieć tenisisty, łokieć golfisty). Jestem członkiem Polskiego Towarzystwa Radioterapii Onkologicznej. W latach 2019-2020 ukończyłam Kosmetologię - Medycynę Estetyczną dla Lekarzy w Krakowskiej Wyższej Szkole Promocji Zdrowia. Zajmuję się laseroterapią oraz wykonuję głównie autologiczne zabiegi osocza i fibryn z komórkami macierzystymi, zabiegi lipotransferu itp.",

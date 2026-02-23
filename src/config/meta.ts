@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
   creator: "Robert Gajewski",
   publisher: "Robert Gajewski",
 
-  defaultOgImage: "/logo-open-graph.png",
+  defaultOgImage: `${import.meta.env.VITE_ASSET_PREFIX}/logo-open-graph.png`,
   ogImageWidth: 1200,
   ogImageHeight: 630,
   ogImageAlt: "Gabinet Roberta Gajewskiego",
@@ -34,16 +34,16 @@ export const SITE_CONFIG = {
   favicons: [
     {
       rel: "icon",
-      href: "/favicon-192x192.png",
+      href: `${import.meta.env.VITE_ASSET_PREFIX}/favicon-192x192.png`,
       type: "image/png",
     },
     {
       rel: "apple-touch-icon",
-      href: "/favicon-192x192.png",
+      href: `${import.meta.env.VITE_ASSET_PREFIX}/favicon-192x192.png`,
     },
     {
       rel: "icon",
-      href: "/favicon-512x512.png",
+      href: `${import.meta.env.VITE_ASSET_PREFIX}/favicon-512x512.png`,
       type: "image/png",
       sizes: "512x512",
     },

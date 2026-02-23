@@ -8,19 +8,19 @@ export const aboutUs = {
 
 export const aboutUsImage = {
   first: {
-    src: "/robert/gabinet-1.webp",
+    src: `${import.meta.env.VITE_ASSET_PREFIX}/robert/gabinet-1.webp`,
     alt: "Gabinet chirurgiczny",
   },
   second: {
-    src: "/robert/gabinet-2.webp",
+    src: `${import.meta.env.VITE_ASSET_PREFIX}/robert/gabinet-2.webp`,
     alt: "lek. med. Robert Gajewski badający pacjenta",
   },
   third: {
-    src: "/robert/gabinet-3.webp",
+    src: `${import.meta.env.VITE_ASSET_PREFIX}/robert/gabinet-3.webp`,
     alt: "lek. med. Robert Gajewski badający pacjenta podczas konsultacji",
   },
   fourth: {
-    src: "/robert/gabinet-4.webp",
+    src: `${import.meta.env.VITE_ASSET_PREFIX}/robert/gabinet-4.webp`,
     alt: "lek. med. Robert Gajewski, specjalista chirurgii w gabinecie",
   },
 };

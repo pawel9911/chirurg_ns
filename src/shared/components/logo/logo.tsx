@@ -27,10 +27,10 @@ export const Logo = ({ size, color, className }: LogoProps) => {
   const getVariant = () => {
     switch (color) {
       case "light": {
-        return "logo_light.png";
+        return `${import.meta.env.VITE_ASSET_PREFIX}/logo_light.png`;
       }
       default: {
-        return "logo.png";
+        return `${import.meta.env.VITE_ASSET_PREFIX}/logo.png`;
       }
     }
   };
@@ -41,7 +41,7 @@ export const Logo = ({ size, color, className }: LogoProps) => {
   return (
     <Link to="/">
       <img
-        src={`/${src}`}
+        src={src}
         alt="logo"
         width={width}
         height={height}
