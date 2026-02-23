@@ -178,21 +178,23 @@ export const Specialist = () => {
               {data.profile.name}
             </h3>
             <address>
-              <div className="flex flex-col items-center mb-3">
-                <p className="text-sm sm:text-base font-medium">
-                  Godziny otwarcia:
-                </p>
-                <p className="grid gap-1">
-                  {data.contact.openingTime?.map((e) => (
-                    <time key={e.day} dateTime={e.day}>
-                      <span className="text-sm sm:text-base">{e.day}: </span>
-                      <span className="text-sm sm:text-base whitespace-nowrap">
-                        {e.hours}
-                      </span>
-                    </time>
-                  ))}
-                </p>
-              </div>
+              {data.contact.openingTime ? (
+                <div className="flex flex-col items-center mb-3">
+                  <p className="text-sm sm:text-base font-medium">
+                    Godziny otwarcia:
+                  </p>
+                  <p className="grid gap-1">
+                    {data.contact.openingTime?.map((e) => (
+                      <time key={e.day} dateTime={e.day}>
+                        <span className="text-sm sm:text-base">{e.day}: </span>
+                        <span className="text-sm sm:text-base whitespace-nowrap">
+                          {e.hours}
+                        </span>
+                      </time>
+                    ))}
+                  </p>
+                </div>
+              ) : null}
 
               <div className="flex flex-col items-center mb-3">
                 <p className="text-sm sm:text-base font-medium">Telefon:</p>
