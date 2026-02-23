@@ -59,7 +59,7 @@ export const Specialists = () => {
                   alt={robertData.profile.name}
                   width={996}
                   height={1280}
-                  className="w-full h-full max-h-60 sm:max-h-80 md:max-h-96 lg:max-h-[450] xl:max-h-[500] object-contain"
+                  className="w-full h-full max-h-60 sm:max-h-80 md:max-h-96 lg:max-h-112.5 xl:max-h-125 object-contain"
                 />
               </HorizontalScroll>
             </div>

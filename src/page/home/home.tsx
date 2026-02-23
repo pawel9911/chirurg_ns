@@ -72,7 +72,7 @@ export const Home = () => {
                 alt={robertData.profile.name}
                 width={996}
                 height={1280}
-                className="w-full h-full max-h-80 sm:max-h-96 md:max-h-[650] object-contain"
+                className="w-full h-full max-h-80 sm:max-h-96 md:max-h-162.5 object-contain"
               />
             </div>
           </HorizontalScroll>

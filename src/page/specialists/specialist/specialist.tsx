@@ -94,7 +94,7 @@ export const Specialist = () => {
                 alt={data.profile.name}
                 width={996}
                 height={1280}
-                className="w-full h-full max-h-80 sm:max-h-96 md:max-h-[650] object-contain"
+                className="w-full h-full max-h-80 sm:max-h-96 md:max-h-162.5 object-contain"
               />
             </div>
           </HorizontalScroll>
@@ -137,7 +137,7 @@ export const Specialist = () => {
                 alt={data.profile.name}
                 width={996}
                 height={1280}
-                className="mx-auto w-auto h-full max-h-96 lg:max-h-[450] xl:max-h-[500] rounded-4xl object-cover"
+                className="mx-auto w-auto h-full max-h-96 lg:max-h-112.5 xl:max-h-125 rounded-4xl object-cover"
                 loading="lazy"
               />
             </HorizontalScroll>
@@ -156,7 +156,7 @@ export const Specialist = () => {
                   alt={data.profile.name}
                   width={996}
                   height={1280}
-                  className="mx-auto w-full h-full max-w-md md:max-w-lg lg:max-w-none max-h-80 md:max-h-96 xl:max-h-[500] rounded-4xl object-cover"
+                  className="mx-auto w-full h-full max-w-md md:max-w-lg lg:max-w-none max-h-80 md:max-h-96 xl:max-h-125 rounded-4xl object-cover"
                   loading="lazy"
                 />
               </HorizontalScroll>
