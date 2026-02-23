@@ -3,7 +3,7 @@ import { type MenuSubItemType } from "@/types";
 export const generalSurgerySubItems: MenuSubItemType[] = [
   {
     id: 1,
-    href: "/zabiegi-ogolne/rak-piersi",
+    href: "/zabiegi/ogolne/rak-piersi",
     title: "Rak piersi",
     description:
       "Rak piersi to najczęściej diagnozowany nowotwór złośliwy u kobiet na świecie. Choroba rozwija się w tkance gruczołu piersiowego i może mieć różne postacie – od zmian wczesnych, nieinwazyjnych, po zaawansowane nowotwory z przerzutami. Wczesne wykrycie raka piersi znacząco zwiększa szanse na całkowite wyleczenie, dlatego kluczowe znaczenie mają regularne badania profilaktyczne, samokontrola piersi oraz szybka diagnostyka każdej niepokojącej zmiany. \n Objawy raka piersi mogą obejmować wyczuwalny guzek, zmianę kształtu piersi, wciągnięcie brodawki sutkowej, wyciek z brodawki, zgrubienia skóry lub powiększenie węzłów chłonnych pachowych. Należy pamiętać, że nie każdy guzek oznacza nowotwór, jednak każda zmiana wymaga pilnej konsultacji lekarskiej i odpowiedniej diagnostyki obrazowej.",
@@ -35,7 +35,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 2,
-    href: "/zabiegi-ogolne/rak-skory-oraz-czerniak",
+    href: "/zabiegi/ogolne/rak-skory-oraz-czerniak",
     title: "Rak skóry oraz czerniak",
     description:
       "Rak skóry oraz czerniak to grupa nowotworów złośliwych wywodzących się z komórek skóry. Są to najczęściej rozpoznawane choroby onkologiczne skóry, a ich liczba na świecie stale rośnie. Do raków skóry zalicza się przede wszystkim raka podstawnokomórkowego i raka kolczystokomórkowego, natomiast czerniak jest najbardziej agresywną postacią nowotworu skóry, mogącą szybko dawać przerzuty do innych narządów. \n Nowotwory skóry rozwijają się najczęściej w wyniku długotrwałej ekspozycji na promieniowanie UV – zarówno naturalne (słońce), jak i sztuczne (solarium). Czynniki ryzyka obejmują jasny fototyp skóry, liczne znamiona barwnikowe, oparzenia słoneczne w dzieciństwie, osłabioną odporność oraz obciążenia genetyczne. Wczesne wykrycie zmian nowotworowych znacząco zwiększa skuteczność leczenia, dlatego kluczowe znaczenie mają regularne kontrole dermatologiczne i samoobserwacja skóry.",
@@ -67,7 +67,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 3,
-    href: "/zabiegi-ogolne/zylaki-odbytu",
+    href: "/zabiegi/ogolne/zylaki-odbytu",
     title: "Żylaki odbytu",
     description:
       "Żylaki odbytu, nazywane potocznie hemoroidami, to powszechna choroba proktologiczna polegająca na patologicznym powiększeniu naczyń żylnych w kanale odbytu. Schorzenie dotyczy zarówno kobiet, jak i mężczyzn, a jego częstość rośnie wraz z wiekiem oraz siedzącym trybem życia. Nieleczone żylaki odbytu mogą prowadzić do przewlekłego bólu, krwawień i znacznego pogorszenia komfortu życia. \n Do najczęstszych objawów należą: pieczenie, świąd, uczucie niepełnego wypróżnienia, ból podczas oddawania stolca oraz krwawienie z odbytu. W zaawansowanych stadiach może dojść do wypadania guzków krwawniczych. Chorobie sprzyjają zaparcia, ciąża, otyłość, długotrwałe siedzenie, brak aktywności fizycznej oraz dieta uboga w błonnik.",
@@ -99,7 +99,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 4,
-    href: "/zabiegi-ogolne/zylaki-konczyn-dolnych",
+    href: "/zabiegi/ogolne/zylaki-konczyn-dolnych",
     title: "Żylaki kończyn dolnych",
     description:
       "Żylaki kończyn dolnych to przewlekła choroba układu żylnego polegająca na nieprawidłowym poszerzeniu i wydłużeniu żył powierzchownych nóg. Schorzenie dotyczy dużej części populacji dorosłych i częściej występuje u kobiet. Nieleczone żylaki mogą prowadzić do bólu, obrzęków, stanów zapalnych oraz poważnych powikłań, takich jak zakrzepica czy owrzodzenia żylne. \n Do najczęstszych objawów żylaków należą uczucie ciężkości nóg, obrzęki nasilające się pod koniec dnia, nocne skurcze łydek, widoczne poszerzone żyły oraz ból podczas długotrwałego stania lub siedzenia. Czynniki ryzyka obejmują predyspozycje genetyczne, siedzący tryb życia, nadwagę, ciążę oraz pracę wymagającą długiego pozostawania w jednej pozycji.",
@@ -131,7 +131,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 5,
-    href: "/zabiegi-ogolne/esperal",
+    href: "/zabiegi/ogolne/esperal",
     title: "Esperal",
     description:
       "Esperal to preparat stosowany jako element wspomagający leczenie choroby alkoholowej. Substancją czynną leku jest disulfiram, który blokuje enzym odpowiedzialny za metabolizm alkoholu w wątrobie. W efekcie nawet niewielka ilość alkoholu powoduje silną reakcję organizmu, co działa jako mechanizm zniechęcający do picia. Terapia z wykorzystaniem Esperalu nie leczy uzależnienia samodzielnie, lecz stanowi wsparcie dla psychoterapii i świadomej decyzji pacjenta o abstynencji. \n Po spożyciu alkoholu u osoby z wszytym preparatem mogą wystąpić objawy takie jak zaczerwienienie twarzy, nudności, wymioty, kołatanie serca, duszność, spadek ciśnienia czy silny niepokój. Reakcja ta jest przewidywalnym efektem działania leku i ma na celu utrwalenie awersji do alkoholu. Dlatego zabieg przeprowadza się wyłącznie u pacjentów, którzy są zdecydowani na leczenie i świadomi konsekwencji spożywania alkoholu.",
@@ -163,7 +163,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 6,
-    href: "/zabiegi-ogolne/usg-i-biopsje",
+    href: "/zabiegi/ogolne/usg-i-biopsje",
     title: "USG i biopsje",
     description:
       "Badania USG i biopsje to podstawowe narzędzia nowoczesnej diagnostyki medycznej, pozwalające na szybkie, bezpieczne i precyzyjne wykrywanie zmian chorobowych. Ultrasonografia (USG) jest nieinwazyjną metodą obrazowania, która umożliwia ocenę narządów wewnętrznych, tkanek miękkich oraz struktur naczyniowych. Biopsja natomiast pozwala na pobranie materiału do badania histopatologicznego, co jest kluczowe w diagnostyce zmian nowotworowych i stanów zapalnych. \n Kompleksowa diagnostyka obejmuje również specjalistyczne badania takie jak wideodermatoskopia, rektoskopia oraz anoskopia. Wideodermatoskopia umożliwia dokładną ocenę znamion skórnych i wczesne wykrywanie nowotworów skóry. Rektoskopia i anoskopia to badania proktologiczne pozwalające ocenić stan końcowego odcinka przewodu pokarmowego, wykryć stany zapalne, polipy, hemoroidy oraz inne nieprawidłowości.",
@@ -195,7 +195,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 7,
-    href: "/zabiegi-ogolne/uklad-pokarmowy",
+    href: "/zabiegi/ogolne/uklad-pokarmowy",
     title: "Choroby układu pokarmowego",
     description:
       "Choroby układu pokarmowego to szeroka grupa schorzeń obejmujących przełyk, żołądek, jelita, wątrobę, trzustkę oraz pęcherzyk żółciowy. Zaburzenia funkcjonowania przewodu pokarmowego mogą prowadzić do przewlekłego bólu brzucha, zaburzeń trawienia, utraty masy ciała oraz poważnych powikłań zdrowotnych. Wczesna diagnostyka i odpowiednio dobrane leczenie są kluczowe dla zachowania zdrowia i jakości życia pacjenta. \n Do najczęściej diagnozowanych chorób należą kamica pęcherzyka żółciowego, choroby zapalne jelit, refluks żołądkowo-przełykowy, wrzody żołądka oraz nowotwory jelita grubego i żołądka. Objawy takie jak przewlekły ból brzucha, krwawienia z przewodu pokarmowego, wzdęcia, zaparcia, biegunki czy nagła utrata apetytu zawsze wymagają konsultacji lekarskiej.",
@@ -227,7 +227,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 8,
-    href: "/zabiegi-ogolne/dostepy-naczyniowe",
+    href: "/zabiegi/ogolne/dostepy-naczyniowe",
     title: "Dostępy naczyniowe do chemioterapii i dializ",
     description:
       "Dostępy naczyniowe do chemioterapii i dializ są kluczowym elementem nowoczesnego leczenia onkologicznego i nefrologicznego. Umożliwiają bezpieczne, długotrwałe podawanie leków, płynów oraz prowadzenie dializoterapii, minimalizując ryzyko powikłań i uszkodzeń żył obwodowych. Najczęściej stosowane rozwiązania to porty naczyniowe oraz dostępy dializacyjne, które zapewniają stabilny i wygodny dostęp do układu krążenia. \n Port naczyniowy to niewielkie urządzenie wszczepiane pod skórę, połączone z dużą żyłą centralną. Umożliwia wielokrotne podawanie chemioterapii, leków biologicznych oraz pobieranie krwi bez konieczności każdorazowego wkłuwania się do żył. Jest to rozwiązanie szczególnie istotne u pacjentów wymagających długotrwałego leczenia onkologicznego.",
@@ -259,7 +259,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 9,
-    href: "/zabiegi-ogolne/zywienie-domowe",
+    href: "/zabiegi/ogolne/zywienie-domowe",
     title: "Leczenie żywieniowe w warunkach domowych",
     description:
       "Leczenie żywieniowe w warunkach domowych to specjalistyczna forma terapii przeznaczona dla pacjentów, którzy nie mogą przyjmować pokarmów drogą naturalną lub wymagają wsparcia żywieniowego w przebiegu chorób przewlekłych. Terapia obejmuje zakładanie gastrostomii i jejunostomii oraz długoterminową opiekę prowadzoną przez poradnię żywieniową. Celem leczenia jest zapewnienie organizmowi odpowiedniej ilości składników odżywczych, poprawa stanu ogólnego pacjenta oraz zwiększenie jakości życia. \n Gastrostomia i jejunostomia to medyczne dostępy do przewodu pokarmowego umożliwiające bezpieczne podawanie specjalistycznych preparatów odżywczych bezpośrednio do żołądka lub jelita cienkiego. Rozwiązanie to stosuje się u pacjentów z zaburzeniami połykania, chorobami neurologicznymi, nowotworami, w stanach po operacjach oraz u osób wymagających długotrwałego wsparcia żywieniowego.",
@@ -296,7 +296,7 @@ export const generalSurgerySubItems: MenuSubItemType[] = [
 export const aestheticSurgerySubItems: MenuSubItemType[] = [
   {
     id: 1,
-    href: "/zabiegi-estetyczne/korekta-opadajacych-powieki",
+    href: "/zabiegi/estetyczne/korekta-opadajacych-powieki",
     title: "Korekta opadających powiek",
     description:
       "Operacja opadającej powieki, czyli blefaroplastyka, to zabieg chirurgiczny korygujący nadmiar skóry, tkanki tłuszczowej i mięśni, przywracający młodszy wygląd i poprawiający pole widzenia, zazwyczaj wykonywany w znieczuleniu miejscowym, z bliznami ukrytymi w naturalnym załamaniu powieki. Istnieją też metody nieinwazyjne (np. plazma, ultradźwięki, nici), które wykorzystują energię do napinania skóry, ale dają krótsze efekty niż chirurgia.",
@@ -339,7 +339,7 @@ export const aestheticSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 2,
-    href: "/zabiegi-estetyczne/korekta-odstajacych-uszu",
+    href: "/zabiegi/estetyczne/korekta-odstajacych-uszu",
     title: "Korekta odstających uszu",
     description:
       "Korekta odstających uszu (otoplastyka) to jeden z najczęściej wykonywanych i najbardziej wdzięcznych zabiegów chirurgii plastycznej. Polega na trwałym wymodelowaniu chrząstki i skóry małżowiny usznej, dzięki czemu uszy zyskują naturalne, harmonijne przyleganie do głowy. Zabieg pozwala pozbyć się kompleksów, które często towarzyszą pacjentom od dzieciństwa – zarówno dzieciom, jak i dorosłym. Efekt jest widoczny praktycznie od razu po zdjęciu opatrunku, a ostateczny, bardzo naturalny rezultat uzyskuje się po kilku miesiącach, gdy całkowicie ustąpi obrzęk. Procedura jest stosunkowo mało inwazyjna, blizna pozostaje ukryta w naturalnym załamku za uchem i z czasem staje się praktycznie niewidoczna. Korekta odstających uszu znacząco poprawia proporcje twarzy, dodaje pewności siebie i bardzo często zmienia jakość życia pacjenta na lepsze.",
@@ -376,7 +376,7 @@ export const aestheticSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 3,
-    href: "/zabiegi-estetyczne/abdominoplastyka",
+    href: "/zabiegi/estetyczne/abdominoplastyka",
     title: "Abdominoplastia",
     description:
       "Abdominoplastyka, czyli plastyka brzucha, to zaawansowany zabieg chirurgii estetycznej mający na celu poprawę wyglądu i proporcji sylwetki. Zabieg polega na usunięciu nadmiaru skóry oraz tkanki tłuszczowej z okolicy brzucha, a także na wzmocnieniu osłabionych mięśni ściany brzusznej. Jest szczególnie polecany osobom po dużej utracie masy ciała, ciążach lub z wiotką skórą brzucha. Abdominoplastia pozwala uzyskać bardziej płaski, jędrny i estetyczny brzuch. Efekty zabiegu są długotrwałe, pod warunkiem utrzymania stabilnej masy ciała i zdrowego trybu życia. Zabieg znacząco wpływa nie tylko na wygląd, ale również na komfort codziennego funkcjonowania. Każda procedura poprzedzona jest indywidualną konsultacją lekarską i kwalifikacją do zabiegu.",
@@ -408,7 +408,7 @@ export const aestheticSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 4,
-    href: "/zabiegi-estetyczne/liposukcja-ramion-z-plastyka-skory",
+    href: "/zabiegi/estetyczne/liposukcja-ramion-z-plastyka-skory",
     title: "Liposukcja ramion z plastyką skóry",
     description:
       "Liposukcja ramion z plastyką skóry to zabieg chirurgii estetycznej, którego celem jest poprawa kształtu oraz napięcia górnych partii ramion. Procedura polega na usunięciu nadmiaru tkanki tłuszczowej, a następnie wycięciu i ujędrnieniu zwiotczałej skóry, która nie obkurcza się samoistnie. Zabieg jest szczególnie polecany osobom zmagającym się z problemem tzw. „pelikanów”, często występującym po dużej utracie masy ciała lub wraz z wiekiem. Dzięki połączeniu liposukcji z plastyką skóry możliwe jest uzyskanie smuklejszych, bardziej proporcjonalnych ramion. Efekty zabiegu są długotrwałe i znacząco poprawiają estetykę sylwetki oraz komfort noszenia ubrań. Procedura wykonywana jest w znieczuleniu i wymaga okresu rekonwalescencji. Ostateczny zakres zabiegu ustalany jest indywidualnie podczas konsultacji z lekarzem specjalistą.",
@@ -440,7 +440,7 @@ export const aestheticSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 5,
-    href: "/zabiegi-estetyczne/lift-ust",
+    href: "/zabiegi/estetyczne/lift-ust",
     title: "Lift ust",
     description:
       "Lift ust, znany również jako lip lift, to precyzyjny zabieg chirurgii estetycznej, którego celem jest poprawa proporcji dolnej części twarzy. Procedura polega na skróceniu odległości między nosem a górną wargą, co prowadzi do naturalnego uniesienia ust i lepszego wyeksponowania czerwieni wargowej. Dzięki temu usta zyskują pełniejszy, bardziej wyrazisty wygląd bez konieczności stosowania wypełniaczy. Zabieg wpływa korzystnie na harmonię rysów twarzy oraz nadaje jej młodszy i świeższy wyraz. Lift lip jest rozwiązaniem szczególnie polecanym osobom, u których górna warga uległa wydłużeniu na skutek procesu starzenia. Efekty zabiegu są trwałe i widoczne niemal natychmiast po ustąpieniu obrzęku. Procedura wykonywana jest w znieczuleniu miejscowym i charakteryzuje się stosunkowo krótkim okresem rekonwalescencji.",
@@ -472,7 +472,7 @@ export const aestheticSurgerySubItems: MenuSubItemType[] = [
   },
   {
     id: 6,
-    href: "/zabiegi-estetyczne/ginekomastia",
+    href: "/zabiegi/estetyczne/ginekomastia",
     title: "Ginekomastia",
     description:
       "Ginekomastia to schorzenie polegające na nadmiernym rozroście tkanki gruczołowej i/lub tłuszczowej w obrębie męskich piersi. Chirurgiczne leczenie ginekomastii jest skuteczną metodą przywracającą prawidłowy, męski kontur klatki piersiowej. Zabieg polega na usunięciu przerośniętej tkanki gruczołowej, często w połączeniu z liposukcją, co pozwala uzyskać naturalny i estetyczny efekt. Procedura znacząco poprawia wygląd sylwetki oraz zwiększa komfort psychiczny i pewność siebie pacjenta. Leczenie operacyjne zalecane jest w przypadkach, gdy ginekomastia nie ustępuje samoistnie lub nie reaguje na leczenie zachowawcze. Zabieg wykonywany jest w znieczuleniu i wymaga krótkiego okresu rekonwalescencji. Każdy pacjent kwalifikowany jest indywidualnie po dokładnej diagnostyce i konsultacji lekarskiej.",

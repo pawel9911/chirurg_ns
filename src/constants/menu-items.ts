@@ -14,7 +14,7 @@ export const specialists: MenuItemType = {
 export const generalSurgeryItem: Extract<MenuItemType, { variant: "primary" }> =
   {
     id: 2,
-    href: "/zabiegi-ogolne",
+    href: "/zabiegi/ogolne",
     title: "Zabiegi ogólne",
     description: "Chirurgia ogólna | lek. med. Robert Gajewski",
     subitems: generalSurgerySubItems,
@@ -26,7 +26,7 @@ export const aestheticSurgeryItem: Extract<
   { variant: "primary" }
 > = {
   id: 3,
-  href: "/zabiegi-estetyczne",
+  href: "/zabiegi/estetyczne",
   title: "Zabiegi estetyczne",
   description: "Chirurgia estetyczna | lek. med. Robert Gajewski",
   subitems: aestheticSurgerySubItems,
