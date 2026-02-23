@@ -5,6 +5,7 @@ import {
   Layout,
   NotFound,
   PriceList,
+  Specialist,
   Specialists,
 } from "./page";
 
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/cennik" element={<PriceList />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/specjalista" element={<Specialists />} />
+        <Route path="/specjalista/:id" element={<Specialist />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
