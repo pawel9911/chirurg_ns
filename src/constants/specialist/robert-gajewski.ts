@@ -4,6 +4,10 @@ export const robertData: SpecialistType = {
   profile: {
     title: "Specjalista chirurgi",
     tags: ["Zabiegi ogólne", "Zabiegi estetyczne"],
+    links: [
+      { title: "Zabiegi ogólne", href: "/zabiegi-ogolne" },
+      { title: "Zabiegi estetyczne", href: "/zabiegi-estetyczne" },
+    ],
     spec: ["ogólnej", "onkologicznej"],
     name: "lek. med. Robert Gajewski",
     description:

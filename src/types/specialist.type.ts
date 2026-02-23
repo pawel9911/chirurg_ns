@@ -1,6 +1,10 @@
 export type ProfileType = {
   title: string;
   tags: string[];
+  links?: {
+    title: string;
+    href: string;
+  }[];
   spec: string[];
   name: string;
   description: string;

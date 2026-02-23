@@ -5,12 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  aestheticSurgeryItem,
-  agaData,
-  generalSurgeryItem,
-  robertData,
-} from "@/constants";
+import { agaData, robertData } from "@/constants";
 import { Facebook, FamousDoctor } from "@/icons";
 import {
   HorizontalScroll,
@@ -21,6 +16,7 @@ import {
 } from "@/shared";
 import { Navigate, useParams } from "react-router";
 import { ExperienceList } from "./components";
+import { cn } from "@/lib/utils";
 
 export const Specialist = () => {
   const { id } = useParams();
@@ -66,20 +62,28 @@ export const Specialist = () => {
             </div>
 
             <div className="flex justify-center md:justify-start flex-wrap gap-2 sm:gap-3.5 lg:gap-5">
-              <LinkButton
-                className="h-9 md:h-10 lg:h-11 xl:h-12 px-5 md:px-7 lg:px-9 text-sm md:text-base lg:text-lg text-primary-foreground!"
-                href={generalSurgeryItem.href}
-              >
-                {generalSurgeryItem.title}
-              </LinkButton>
-
-              <LinkButton
-                className="h-9 md:h-10 lg:h-11 xl:h-12 px-5 md:px-7 lg:px-9 text-sm md:text-base lg:text-lg"
-                href={aestheticSurgeryItem.href}
-                variant="outline"
-              >
-                {aestheticSurgeryItem.title}
-              </LinkButton>
+              {data.profile.links
+                ? data.profile.links.map((link, i) => (
+                    <LinkButton
+                      key={link.title}
+                      className={cn(
+                        "h-9 md:h-10 lg:h-11 xl:h-12 px-5 md:px-7 lg:px-9 text-sm md:text-base lg:text-lg",
+                        i % 2 === 0 ? "text-primary-foreground!" : "",
+                      )}
+                      href={link.href}
+                      variant={i % 2 === 0 ? "default" : "outline"}
+                    >
+                      {link.title}
+                    </LinkButton>
+                  ))
+                : data.profile.tags.map((tag) => (
+                    <Badge
+                      className="h-9 md:h-10 lg:h-11 xl:h-12 px-5 md:px-7 lg:px-9 text-sm md:text-base lg:text-lg"
+                      key={tag}
+                    >
+                      {tag}
+                    </Badge>
+                  ))}
             </div>
           </VerticalScroll>
 
