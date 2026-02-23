@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import {
   aestheticSurgeryItem,
+  agaData,
   generalSurgeryItem,
   robertData,
 } from "@/constants";
@@ -18,10 +19,33 @@ import {
   TypingText,
   VerticalScroll,
 } from "@/shared";
+import { Navigate, useParams } from "react-router";
 import { ExperienceList } from "./components";
 
 export const Specialist = () => {
   const { biography, contact, statistics, profile, timeline } = robertData;
+
+  const { id } = useParams();
+
+  const getStaticData = () => {
+    switch (id) {
+      case "robert-gajewski": {
+        return robertData;
+      }
+      case "agnieszka-olchawa": {
+        return agaData;
+      }
+      default: {
+        return null;
+      }
+    }
+  };
+
+  const data = getStaticData();
+
+  if (!data) {
+    return <Navigate to="/404" />;
+  }
 
   return (
     <div className="container">
