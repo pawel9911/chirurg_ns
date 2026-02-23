@@ -5,6 +5,7 @@ export * from "./header";
 export * from "./horizontal-scroll";
 export * from "./ImageWithSkeleton";
 export * from "./link-button";
+export * from "./seo-meta-data";
 export * from "./specialist-card";
 export * from "./statistic-value";
 export * from "./typing-text";
