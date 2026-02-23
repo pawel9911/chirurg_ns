@@ -15,8 +15,11 @@ export const PriceList = () => {
   return (
     <>
       <SeoMetadata
-        title="Cennik - lek. Robert Gajewski"
-        description={`Aktualny cennik konsultacji i zabiegów chirurgicznych. Gabinet przy ul. ${contact.address?.street}, ${contact.address?.postcode} - chirurgia ogólna, onkologiczna, dermatochirurgia.`}
+        title="Cennik - Robert Gajewski | Nowy Sącz"
+        description={`
+          Aktualny cennik konsultacji i zabiegów ogólnych oraz estetycznych. 
+          Gabinet przy ul. ${contact.address?.street}, ${contact.address?.postcode} 
+          - chirurgia ogólna, onkologiczna, dermatochirurgia.`}
         canonical="https://chirurgnowysacz.com.pl/cennik"
       />
       <div className="container">

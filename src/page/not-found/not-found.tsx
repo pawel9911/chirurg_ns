@@ -4,8 +4,11 @@ export const NotFound = () => {
   return (
     <>
       <SeoMetadata
-        title="404 – Strona nie znaleziona | Gabinet Chirurgii Ogólnej i Onkologicznej – Robert Gajewski Nowy Sącz"
-        description="Przepraszamy, strona której szukasz nie istnieje. Zapraszamy do głównej strony gabinetu lek. Roberta Gajewskiego – chirurgia ogólna, onkologiczna i estetyczna w Nowym Sączu."
+        title="404 - Strona nie znaleziona | Robert Gajewski - Nowy Sącz"
+        description={`
+          Przepraszamy, strona której szukasz nie istnieje. 
+          Zapraszamy do głównej strony gabinetu lek. Roberta Gajewskiego 
+          - chirurgia ogólna, onkologiczna i estetyczna w Nowym Sączu.`}
         canonical="https://chirurgnowysacz.com.pl"
         noindex={true}
       />

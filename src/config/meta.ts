@@ -51,5 +51,4 @@ export const SITE_CONFIG = {
 
   defaultRobots: "index, follow",
   googlebot: "index, follow",
-  nocache: false,
 } as const;

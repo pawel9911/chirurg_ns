@@ -48,7 +48,6 @@ export const SeoMetadata: FC<SeoMetadataProps> = ({
       ) : (
         <>
           <meta name="robots" content={SITE_CONFIG.defaultRobots} />
-          {SITE_CONFIG.nocache && <meta name="robots" content="nocache" />}
           <meta name="googlebot" content={SITE_CONFIG.googlebot} />
         </>
       )}

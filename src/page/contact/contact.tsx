@@ -18,8 +18,11 @@ export const Contact = () => {
   return (
     <>
       <SeoMetadata
-        title="Kontakt - lek. Robert Gajewski"
-        description={`Umów wizytę w gabinecie w Nowym Sączu. Specjalista chirurgii ogólnej i onkologicznej z wieloletnim doświadczeniem. Tel. ${contact.phone}, ul. ${contact.address?.street}, ${contact.address?.postcode}`}
+        title="Kontakt - Robert Gajewski | Nowy Sącz"
+        description={`
+          Umów wizytę w gabinecie w Nowym Sączu. Specjalista chirurgii ogólnej i 
+          onkologicznej z wieloletnim doświadczeniem. Tel. ${contact.phone}, 
+          ul. ${contact.address?.street}, ${contact.address?.postcode}`}
         canonical="https://chirurgnowysacz.com.pl/kontakt"
       />
       <div className="container">
