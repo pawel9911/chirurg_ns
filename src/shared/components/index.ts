@@ -4,6 +4,7 @@ export * from "./footer";
 export * from "./header";
 export * from "./horizontal-scroll";
 export * from "./link-button";
+export * from "./specialist-card";
 export * from "./statistic-value";
 export * from "./typing-text";
 export * from "./vertical-scroll";

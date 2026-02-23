@@ -1,5 +1,12 @@
 import { Route, Routes } from "react-router";
-import { Contact, Home, Layout, NotFound, PriceList } from "./page";
+import {
+  Contact,
+  Home,
+  Layout,
+  NotFound,
+  PriceList,
+  Specialists,
+} from "./page";
 
 const App = () => {
   return (
@@ -8,6 +15,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/cennik" element={<PriceList />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/specjalista" element={<Specialists />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
