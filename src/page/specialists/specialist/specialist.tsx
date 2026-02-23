@@ -23,8 +23,6 @@ import { Navigate, useParams } from "react-router";
 import { ExperienceList } from "./components";
 
 export const Specialist = () => {
-  const { biography, contact, statistics, profile, timeline } = robertData;
-
   const { id } = useParams();
 
   const getStaticData = () => {
@@ -54,16 +52,16 @@ export const Specialist = () => {
           <VerticalScroll className="rounded-l-4xl flex flex-col justify-center gap-4 md:gap-8 order-2 md:order-1">
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left scroll-m-20 tracking-tight text-balance">
-                {robertData.profile.title}{" "}
+                {data.profile.title}{" "}
               </h1>
               <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left scroll-m-20 tracking-tight text-balance">
-                <TypingText texts={robertData.profile.spec} />
+                <TypingText texts={data.profile.spec} />
               </p>
               <h2 className="text-xl sm:text-2xl lg:text-3xl text-center md:text-left scroll-m-20 tracking-tight text-balance leading-10 sm:leading-14 lg:leading-16">
-                {profile.name}
+                {data.profile.name}
               </h2>
               <p className="hidden sm:block text-muted-foreground text-center md:text-left">
-                {profile.description}
+                {data.profile.description}
               </p>
             </div>
 
@@ -88,8 +86,8 @@ export const Specialist = () => {
           <HorizontalScroll className="flex items-center justify-center order-1 md:order-2">
             <div className="bg-primary/10 rounded-4xl w-full">
               <img
-                src={profile.imageSrc}
-                alt={profile.name}
+                src={data.profile.imageSrc}
+                alt={data.profile.name}
                 width={996}
                 height={1280}
                 className="w-full h-full max-h-80 sm:max-h-96 md:max-h-[650] object-contain"
@@ -99,7 +97,7 @@ export const Specialist = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 md:gap-10 sm:py-3 md:py-6 md:px-12 lg:px-16">
-          {statistics.map((statistic) => (
+          {data.statistics.map((statistic) => (
             <Card key={statistic.id} className="border-0 shadow-none">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl sm:text-4xl lg:text-5xl tracking-tight text-balance">
@@ -126,13 +124,13 @@ export const Specialist = () => {
                 </Badge>
               </div>
               <p className="text-muted-foreground text-sm sm:text-base xl:text-lg">
-                {biography.text}
+                {data.biography.text}
               </p>
             </VerticalScroll>
             <HorizontalScroll>
               <img
-                src={biography.imageSrc}
-                alt={profile.name}
+                src={data.biography.imageSrc}
+                alt={data.profile.name}
                 width={996}
                 height={1280}
                 className="mx-auto w-auto h-full max-h-96 lg:max-h-[450] xl:max-h-[500] rounded-4xl object-cover"
@@ -150,7 +148,7 @@ export const Specialist = () => {
             >
               <img
                 src="/robert/gabinet-2.webp"
-                alt={profile.name}
+                alt={data.profile.name}
                 width={996}
                 height={1280}
                 className="mx-auto w-full h-full max-w-md md:max-w-lg lg:max-w-none max-h-80 md:max-h-96 xl:max-h-[500] rounded-4xl object-cover"
@@ -158,7 +156,7 @@ export const Specialist = () => {
               />
             </HorizontalScroll>
             <HorizontalScroll className="order-1 lg:order-2">
-              <ExperienceList timeline={timeline} />
+              <ExperienceList timeline={data.timeline} />
             </HorizontalScroll>
           </div>
         </VerticalScroll>
@@ -175,7 +173,7 @@ export const Specialist = () => {
           />
           <VerticalScroll className="h-full p-6 lg:p-8 flex flex-col justify-center items-center gap-2 order-1 lg:order-2">
             <h3 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl scroll-m-20 tracking-tight text-balance leading-10 sm:leading-14 lg:leading-16 text-primary text-center">
-              {profile.name}
+              {data.profile.name}
             </h3>
             <address>
               <div className="flex flex-col items-center mb-3">
@@ -183,7 +181,7 @@ export const Specialist = () => {
                   Godziny otwarcia:
                 </p>
                 <p className="grid gap-1">
-                  {contact.openingTime?.map((e) => (
+                  {data.contact.openingTime?.map((e) => (
                     <time key={e.day} dateTime={e.day}>
                       <span className="text-sm sm:text-base">{e.day}: </span>
                       <span className="text-sm sm:text-base whitespace-nowrap">
@@ -198,16 +196,16 @@ export const Specialist = () => {
                 <p className="text-sm sm:text-base font-medium">Telefon:</p>
                 <a
                   className="text-sm sm:text-base"
-                  href={`tel:${contact.phone}`}
+                  href={`tel:${data.contact.phone}`}
                 >
-                  {contact.phone}
+                  {data.contact.phone}
                 </a>
               </div>
             </address>
             <div className="flex gap-2">
-              {contact.facebookHref ? (
+              {data.contact.facebookHref ? (
                 <LinkButton
-                  href={contact.facebookHref}
+                  href={data.contact.facebookHref}
                   variant="outline"
                   size="icon-lg"
                 >
@@ -215,7 +213,7 @@ export const Specialist = () => {
                 </LinkButton>
               ) : null}
               <LinkButton
-                href={contact.famousDoctorHref}
+                href={data.contact.famousDoctorHref}
                 variant="outline"
                 size="icon-lg"
               >
