@@ -4,4 +4,5 @@ export * from "./footer";
 export * from "./header";
 export * from "./horizontal-scroll";
 export * from "./link-button";
+export * from "./statistic-value";
 export * from "./vertical-scroll";
