@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { type ProfileType } from "@/types";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 interface SpecialistCardProps extends ProfileType {
   href: string;
@@ -15,7 +15,7 @@ export const SpecialistCard = ({
 }: SpecialistCardProps) => {
   return (
     <div>
-      <NavLink to={href}>
+      <Link to={href}>
         <div className="flex items-center justify-center">
           <div className="flex w-full justify-center bg-primary/10 rounded-4xl">
             <img
@@ -48,7 +48,7 @@ export const SpecialistCard = ({
             </div>
           ) : null}
         </div>
-      </NavLink>
+      </Link>
     </div>
   );
 };

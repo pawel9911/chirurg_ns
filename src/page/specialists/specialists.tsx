@@ -6,14 +6,14 @@ import {
   SpecialistCard,
   VerticalScroll,
 } from "@/shared";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 export const Specialists = () => {
   return (
     <div className="container">
       <div className="flex flex-col items-center gap-6">
         <div className="w-full p-8 md:p-12 lg:p-16 bg-accent rounded-4xl">
-          <NavLink to="/specjalista/robert-gajewski">
+          <Link to="/specjalista/robert-gajewski">
             <div className="grid lg:grid-cols-2 gap-8">
               <VerticalScroll className="flex flex-col gap-3 sm:gap-5 xl:gap-8">
                 <div>
@@ -63,7 +63,7 @@ export const Specialists = () => {
                 />
               </HorizontalScroll>
             </div>
-          </NavLink>
+          </Link>
         </div>
 
         <Banner

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 interface LogoProps {
   size?: "regular";
@@ -39,7 +39,7 @@ export const Logo = ({ size, color, className }: LogoProps) => {
   const src = getVariant();
 
   return (
-    <NavLink to="/">
+    <Link to="/">
       <img
         src={`/${src}`}
         alt="logo"
@@ -47,6 +47,6 @@ export const Logo = ({ size, color, className }: LogoProps) => {
         height={height}
         className={className}
       />
-    </NavLink>
+    </Link>
   );
 };

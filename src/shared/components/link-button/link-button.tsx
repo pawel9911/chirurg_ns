@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 import { Button } from "@/components/ui/button";
 
 interface LinkButtonProps extends React.ComponentProps<typeof Button> {
@@ -24,7 +24,7 @@ export const LinkButton = ({
           {children}
         </a>
       ) : (
-        <NavLink to={href}>{children}</NavLink>
+        <Link to={href}>{children}</Link>
       )}
     </Button>
   );

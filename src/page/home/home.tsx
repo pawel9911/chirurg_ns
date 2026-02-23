@@ -23,7 +23,7 @@ import {
   TypingText,
   VerticalScroll,
 } from "@/shared";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 export const Home = () => {
   const { items } = generalSurgeryPage;
@@ -111,7 +111,7 @@ export const Home = () => {
 
           <VerticalScroll className="flex overflow-x-auto snap-x snap-mandatory py-4 scrollbar-x">
             {items.map((item) => (
-              <NavLink
+              <Link
                 key={item.id}
                 to={item.href}
                 className="shrink-0 w-40 md:w-48 xl:w-1/6 snap-start"
@@ -133,7 +133,7 @@ export const Home = () => {
                     </CardTitle>
                   </div>
                 </Card>
-              </NavLink>
+              </Link>
             ))}
           </VerticalScroll>
         </VerticalScroll>
