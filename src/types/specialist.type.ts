@@ -32,7 +32,7 @@ export type StatisticType = {
 
 export type TimelineIconType = "School" | "Work" | "Hospital";
 
-export type TimelineType = {
+export type TimelineItemType = {
   year: number;
   title: string;
   icon: TimelineIconType;
@@ -43,5 +43,8 @@ export type SpecialistType = {
   biography: BiographyType;
   contact: ContactType;
   statistics: StatisticType[];
-  timeline: TimelineType[];
+  timeline?: {
+    image: string;
+    item: TimelineItemType[];
+  };
 };

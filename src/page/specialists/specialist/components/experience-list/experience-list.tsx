@@ -1,9 +1,9 @@
 import { VerticalScroll } from "@/shared";
-import { type TimelineIconType, type TimelineType } from "@/types";
+import { type TimelineIconType, type TimelineItemType } from "@/types";
 import { GraduationCap, Stethoscope, Hospital } from "lucide-react";
 
 interface ExperienceListProps {
-  timeline: TimelineType[];
+  timeline: TimelineItemType[];
 }
 
 export const ExperienceList = ({ timeline }: ExperienceListProps) => {

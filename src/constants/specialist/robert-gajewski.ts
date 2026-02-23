@@ -59,37 +59,40 @@ export const robertData: SpecialistType = {
       postfix: "+",
     },
   ],
-  timeline: [
-    {
-      title: "Śląski Uniwersytet Medyczny w Katowicach",
-      icon: "School",
-      year: 2000,
-    },
-    {
-      title:
-        "Oddział Chirurgii Onkologicznej - Centrum Onkologii w Nowym Sączu",
-      icon: "Hospital",
-      year: 2003,
-    },
-    {
-      title: "Założenie zespołu ds. żywienia",
-      icon: "Work",
-      year: 2005,
-    },
-    {
-      title: "Gabinet Chirurgii Ogólnej i Onkologicznej",
-      icon: "Hospital",
-      year: 2005,
-    },
-    {
-      title: `Założenie Fundacji na rzecz chorych onkologicznych „Nasza Nadzieja"`,
-      icon: "Work",
-      year: 2008,
-    },
-    {
-      title: "Oddział Chirurgii Ogólnej i Onkologicznej Gorlice",
-      icon: "Hospital",
-      year: 2024,
-    },
-  ],
+  timeline: {
+    image: "/robert/gabinet-2.webp",
+    item: [
+      {
+        title: "Śląski Uniwersytet Medyczny w Katowicach",
+        icon: "School",
+        year: 2000,
+      },
+      {
+        title:
+          "Oddział Chirurgii Onkologicznej - Centrum Onkologii w Nowym Sączu",
+        icon: "Hospital",
+        year: 2003,
+      },
+      {
+        title: "Założenie zespołu ds. żywienia",
+        icon: "Work",
+        year: 2005,
+      },
+      {
+        title: "Gabinet Chirurgii Ogólnej i Onkologicznej",
+        icon: "Hospital",
+        year: 2005,
+      },
+      {
+        title: `Założenie Fundacji na rzecz chorych onkologicznych „Nasza Nadzieja"`,
+        icon: "Work",
+        year: 2008,
+      },
+      {
+        title: "Oddział Chirurgii Ogólnej i Onkologicznej Gorlice",
+        icon: "Hospital",
+        year: 2024,
+      },
+    ],
+  },
 };

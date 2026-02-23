@@ -140,26 +140,28 @@ export const Specialist = () => {
           </div>
         </VerticalScroll>
 
-        <VerticalScroll className="w-full p-8 md:p-12 xl:p-16 bg-accent rounded-4xl">
-          <div className="grid lg:grid-cols-2 gap-6 sm:gap-2 lg:gap-8">
-            <HorizontalScroll
-              custom={true}
-              className="order-2 lg:order-1 flex items-center"
-            >
-              <img
-                src="/robert/gabinet-2.webp"
-                alt={data.profile.name}
-                width={996}
-                height={1280}
-                className="mx-auto w-full h-full max-w-md md:max-w-lg lg:max-w-none max-h-80 md:max-h-96 xl:max-h-[500] rounded-4xl object-cover"
-                loading="lazy"
-              />
-            </HorizontalScroll>
-            <HorizontalScroll className="order-1 lg:order-2">
-              <ExperienceList timeline={data.timeline} />
-            </HorizontalScroll>
-          </div>
-        </VerticalScroll>
+        {data.timeline ? (
+          <VerticalScroll className="w-full p-8 md:p-12 xl:p-16 bg-accent rounded-4xl">
+            <div className="grid lg:grid-cols-2 gap-6 sm:gap-2 lg:gap-8">
+              <HorizontalScroll
+                custom={true}
+                className="order-2 lg:order-1 flex items-center"
+              >
+                <img
+                  src={data.timeline.image}
+                  alt={data.profile.name}
+                  width={996}
+                  height={1280}
+                  className="mx-auto w-full h-full max-w-md md:max-w-lg lg:max-w-none max-h-80 md:max-h-96 xl:max-h-[500] rounded-4xl object-cover"
+                  loading="lazy"
+                />
+              </HorizontalScroll>
+              <HorizontalScroll className="order-1 lg:order-2">
+                <ExperienceList timeline={data.timeline.item} />
+              </HorizontalScroll>
+            </div>
+          </VerticalScroll>
+        ) : null}
 
         <VerticalScroll className="w-full grid lg:grid-cols-2 lg:gap-8 bg-accent rounded-4xl">
           <iframe
