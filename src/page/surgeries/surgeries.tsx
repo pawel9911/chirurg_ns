@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { aestheticSurgeryPage, generalSurgeryPage } from "@/constants";
-import { Banner, VerticalScroll } from "@/shared";
+import { Banner, ImageWithSkeleton, VerticalScroll } from "@/shared";
 import { Link, Navigate, useParams } from "react-router";
 
 export const Surgeries = () => {
@@ -43,20 +43,17 @@ export const Surgeries = () => {
         />
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
           {data.items.map((item) => (
-            <VerticalScroll key={item.id}>
+            <VerticalScroll key={`${item.id}-${id}`}>
               <Link
                 to={item.href}
                 className="mx-auto w-full max-w-sm sm:max-w-none"
               >
                 <Card className="h-full gap-3 sm:gap-4.5 lg:gap-6">
                   <CardContent>
-                    <img
+                    <ImageWithSkeleton
                       src={item.imgSrc}
                       alt={item.title}
-                      width={996}
-                      height={1280}
                       className="w-full h-full max-h-40 sm:max-h-44 md:max-h-48 lg:max-h-52 xl:max-h-60 rounded-2xl object-cover"
-                      loading="lazy"
                     />
                   </CardContent>
                   <CardHeader>

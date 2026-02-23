@@ -18,6 +18,7 @@ import {
 import {
   Banner,
   HorizontalScroll,
+  ImageWithSkeleton,
   LinkButton,
   StatisticValue,
   TypingText,
@@ -118,13 +119,10 @@ export const Home = () => {
               >
                 <Card className="h-full py-0 gap-3 md:gap-5 mx-2 relative">
                   <CardContent className="px-0">
-                    <img
+                    <ImageWithSkeleton
                       src={item.imgSrc}
                       alt={item.title}
-                      width={996}
-                      height={1280}
                       className="aspect-square rounded-2xl object-cover max-h-32 sm:max-h-40 lg:max-h-48"
-                      loading="lazy"
                     />
                   </CardContent>
                   <div className="absolute flex items-center justify-center w-full h-full bg-black/40 p-2 rounded-2xl ">

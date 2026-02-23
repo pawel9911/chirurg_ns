@@ -3,6 +3,7 @@ export * from "./contact-card";
 export * from "./footer";
 export * from "./header";
 export * from "./horizontal-scroll";
+export * from "./ImageWithSkeleton";
 export * from "./link-button";
 export * from "./specialist-card";
 export * from "./statistic-value";
